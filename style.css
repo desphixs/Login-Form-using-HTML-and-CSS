@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f2eb;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: poppins;
+}
+
+.form {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 40px;
+    width: 450px;
+    box-shadow: 5px 5px 11px #00000011;
+}
+
+.form-header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.form-header h1 {
+    color: #1e1a13;
+    font-size: 35px;
+}
+
+.form-header p {
+    font-size: 14px;
+    color: #473e2d;
+    margin-top: 5px;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    border: 2px solid #b6afa42a;
+    padding: 13px 10px;
+    border-radius: 5px;
+    font-family: poppins;
+}
+
+.input::placeholder {
+    font-size: 12px;
+    font-family: poppins;
+}
+.input:focus {
+    outline: none;
+    color: #2c2720ef;
+}
+
+.forgot-password-link {
+    font-size: 13px;
+    color: #473e2d;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #fec887;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 15px;
+    margin-top: 10px;
+    font-family: poppins;
+    font-weight: bold;
+    color: #241f16;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #bf925c;
+    color: white;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.social-login-option {
+    border: 2px solid #b6afa42a;
+    padding: 9px 13px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.social-login-option:hover {
+    border: none;
+    background-color: #241f16;
+    color: white;
+}
+
+.social-login-option i {
+    font-size: 23px;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.signup-link {
+    font-size: 13px;
+    color: #473e2d;
+    margin-top: 5px;
+    text-decoration: none;
+}
